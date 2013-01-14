@@ -28,7 +28,7 @@
 //
 
 #import "DetailTableViewController.h"
-#import "NSString+HTML.h"
+#import "NSString+MWHTML.h"
 
 typedef enum { SectionHeader, SectionDetail } Sections;
 typedef enum { SectionHeaderTitle, SectionHeaderDate, SectionHeaderURL } HeaderRows;

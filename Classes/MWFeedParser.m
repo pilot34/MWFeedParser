@@ -29,7 +29,7 @@
 
 #import "MWFeedParser.h"
 #import "MWFeedParser_Private.h"
-#import "NSString+HTML.h"
+#import "NSString+MWHTML.h"
 #import "NSDate+InternetDateTime.h"
 
 // NSXMLParser Logging

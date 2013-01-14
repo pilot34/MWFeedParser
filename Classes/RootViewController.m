@@ -28,7 +28,7 @@
 //
 
 #import "RootViewController.h"
-#import "NSString+HTML.h"
+#import "NSString+MWHTML.h"
 #import "MWFeedParser.h"
 #import "DetailTableViewController.h"
 

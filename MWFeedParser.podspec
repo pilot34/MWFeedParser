@@ -5,13 +5,13 @@ Pod::Spec.new do |s|
   s.summary          =  'An Objective-C RSS / Atom Feed Parser for iOS.'
   s.homepage         =  'https://github.com/mwaterfall/MWFeedParser'
   s.author           =  { 'Michael Waterfall' => 'mw@d3i.com' }
-  s.source           =  { :git => 'https://github.com/mwaterfall/MWFeedParser.git', :commit => '0b1d301877c43c80e5fe5c7f294a2a34fa62f5a7' }
+  s.source           =  { :git => 'https://github.com/pilot34/MWFeedParser.git' }
   s.platform         =  :ios
   s.compiler_flags   =  '-Wno-format', '-Wno-format-extra-args'
   s.framework        =  'Foundation'
 
   s.subspec 'NSString+HTML' do |ss|
-    ss.source_files = 'Classes/NSString+HTML.{h,m}', 'Classes/GTMNSString+HTML.{h,m}'
+    ss.source_files = 'Classes/NSString+MWHTML.{h,m}', 'Classes/GTMNSString+HTML.{h,m}'
   end
 
   s.subspec 'NSString+XMLEntities' do |ss|

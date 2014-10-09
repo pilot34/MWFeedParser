@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     end
     s.subspec 'NSString+HTML' do |ss|
         s.platform = nil
-        ss.source_files = 'Classes/NSString+HTML.{h,m}',
+        ss.source_files = 'Classes/NSString+MWHTML.{h,m}',
                           'Classes/GTMNSString+HTML.{h,m}'
     end
     s.subspec 'NSDate+InternetDateTime' do |ss|
